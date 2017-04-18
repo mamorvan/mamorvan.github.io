@@ -1,25 +1,219 @@
 <!DOCTYPE html>
 <head>
 	<title>Links to Bootcamp Assignments</title>
-	<link rel="shortcut icon" href="star.png" type="image/png">
+	<link rel="shortcut icon" href="images/star.png" type="image/png">
 
+	<!--GOOGLE FONTS-->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+
+	<!-- MATERIALIZE Compiled and minified CSS -->
+ 	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+  	    
+	<link rel="stylesheet" href="style.css" type="text/css">
+	
+	<meta name="viewport" content="width=device-width, initial-scale-1.0"/>
 
 </head>
+
 <body>
 
-	<h1>Links to my Assignments!</h1>
-	<h2>all in one easy place</h2>
-	<h3> HW1 - <a href="https://mamorvan.github.io/Basic-Portfolio/index.html" target="_blank">Basic Portfolio</a></h3>
-	<h3> HW2 - <a href="https://mamorvan.github.io/Bootstrap-Portfolio/index.html" target="_blank">Bootstrap Portfolio</a></h3>
-	<h3> HW2 - <a href="https://mamorvan.github.io/Responsive-Portfolio/index.html" target="_blank">Responsive Portfolio</a></h3>
-	<h3> HW3 - <a href="https://mamorvan.github.io/Hangman-Game/index.html" target="_blank">Hangman Game</a></h3>
-	<h3> HW4 - <a href="https://mamorvan.github.io/week-4-game/index.html" target="_blank">Crystals Game</a></h3>
-	<h3> HW5 - <a href="https://mamorvan.github.io/TriviaGame/index.html" target="_blank">Trivia Game</a></h3>
-	<h3> HW6 - <a href="https://mamorvan.github.io/How-Do-You-Feel-Today/index.html" target="_blank">Feeling Gifs</a></h3>
-	<h3> HW7 - <a href="https://mamorvan.github.io/Train-Schedule/index.html" target="_blank">Train Schedule</a></h3>
-	<h3> Group Project 1 - <a href="https://applesauce-collaborative.github.io/Movies-to-Books/" target="_blank">Movies-to-Books</a></h3>
-	
+	 <!-- Dropdown Structure for navbar -->
+	<ul id="Homeworks" class="dropdown-content">
+	  <li><a href="#homework1">Homework 1</a></li>
+	  <li><a href="#homework2">Homework 2</a></li> 
+	  <li><a href="#homework3">Homework 3</a></li>
+	  <li><a href="#homework4">Homework 4</a></li>
+	  <li><a href="#homework5">Homework 5</a></li> 
+	  <li><a href="#homework6">Homework 6</a></li>
+	  <li><a href="#homework7">Homework 7</a></li>
+	</ul>
 
+	<!--fixed navbar-->
+	<div class="navbar-fixed">
+		<nav>
+		  <div class="nav-wrapper">
+		    <a href="#" class="brand-logo"><img src="images/star.png" alt="gold star for Mary"> Mary's Assignments - all in one easy place!</a>
+		    <ul class="right hide-on-med-and-down">
+		      <li><a href="#project1">Project 1</a></li>
+		      
+		      <!-- Dropdown Trigger -->
+		      <li><a class="dropdown-button" href="#!" data-activates="Homeworks">Homework Assignments<i class="material-icons right"></i></a></li>
+		    </ul>
+		  </div>
+		</nav>
+	</div> <!--end of fixed navbar div-->
+	        
+	<div class="wrapper">
+
+ 		<div class="row">
+ 			<!--col1 - homework1-->
+        	<div id="homework1" class="col s12 m4">
+	          <div class="card hoverable">
+	            <div class="card-image">
+	              <img src="images/basic portfolio.png">
+	              <span class="card-title">BASIC PORTFOLIO</span>
+	            </div>
+	            <div class="card-content">
+	              <p>Homework 1 -<br> make a basic portfolio using HTML and CSS</p>
+	            </div> <!--end of card content div-->
+	            <div class="card-action">
+	              <a href="https://mamorvan.github.io/Basic-Portfolio/index.html" target="_blank">Check out my Basic Portfolio</a>
+	            </div> <!--end of card-action div-->
+	          </div> <!--end of card div-->
+	        </div> <!--end of col s12 m6 div-->
+
+	        <!--col2 - homework2-->
+	        <div id="homework2" class="col s12 m4">
+	          <div class="card hoverable">
+	            <div class="card-image">
+	              <img src="images/responsive portfolio.png">
+	              <span class="card-title">RESPONSIVE PORTFOLIO</span>
+	            </div>
+	            <div class="card-content">
+	              <p>Homework 2 -<br> Basic Portfolio redone using media queries</p>
+	            </div> <!--end of card content div-->
+	            <div class="card-action">
+	              <a href="https://mamorvan.github.io/Responsive-Portfolio/index.html" target="_blank">Check out my Responsive Portfolio</a>
+	            </div> <!--end of card-action div-->
+	          </div> <!--end of card div-->
+	        </div> <!--end of col s12 m6 div-->
+
+	        <!--col3 - more homework2-->
+   			<div class="col s12 m4">
+	          <div class="card hoverable">
+	            <div class="card-image">
+	              <img src="images/bootstrap portfolio.png">
+	              <span class="card-title">BOOTSTRAP PORTFOLIO</span>
+	            </div>
+	            <div class="card-content">
+	              <p>more Homework 2 -<br> Basic Portfolio redone with Bootstrap</p>
+	            </div> <!--end of card content div-->
+	            <div class="card-action">
+	              <a href="https://mamorvan.github.io/Basic-Portfolio/index.html" target="_blank">Check out my Bootstrap Portfolio</a>
+	            </div> <!--end of card-action div-->
+	          </div> <!--end of card div-->
+	        </div> <!--end of col s12 m6 div-->
+
+	    </div> <!--end of row1 div - contains hw1 hw2 and more hw2-->
+
+	    <div class="row"> <!--row2-->
+ 			<!--col1 - homework3-->
+        	<div id="homework3" class="col s12 m4">
+	          <div class="card hoverable">
+	            <div class="card-image">
+	              <img src="images/hangman.png">
+	              <span class="card-title">HANGMAN</span>
+	            </div>
+	            <div class="card-content">
+	              <p>Homework 3 -<br> A Series of Unfortunate Events Hangman</p>
+	            </div> <!--end of card content div-->
+	            <div class="card-action">
+	              <a href="https://mamorvan.github.io/Hangman-Game/index.html" target="_blank">Check out my Hangman Game</a>
+	            </div> <!--end of card-action div-->
+	          </div> <!--end of card div-->
+	        </div> <!--end of col s12 m6 div-->
+
+	        <!--col2 - homework4-->
+	        <div id="homework4" class="col s12 m4">
+	          <div class="card hoverable">
+	            <div class="card-image">
+	              <img src="images/crystal.png">
+	              <span class="card-title">CRYSTAL GAME</span>
+	            </div>
+	            <div class="card-content">
+	              <p>Homework 4 -<br> Practice with jQuery and make an interactive crystal guessing game</p>
+	            </div> <!--end of card content div-->
+	            <div class="card-action">
+	              <a href="https://mamorvan.github.io/week-4-game/index.html" target="_blank">Check out my Crystals Game</a>
+	            </div> <!--end of card-action div-->
+	          </div> <!--end of card div-->
+	        </div> <!--end of col s12 m6 div-->
+
+	        <!--col3 - homework5-->
+   			<div id="homework5" class="col s12 m4">
+	          <div class="card hoverable">
+	            <div class="card-image">
+	              <img src="images/trivia.png">
+	              <span class="card-title">TRIVIA GAME</span>
+	            </div>
+	            <div class="card-content">
+	              <p>Homework 5 -<br> A timed trivia game about Ancient Egypt using javascript and jQuery</p>
+	            </div> <!--end of card content div-->
+	            <div class="card-action">
+	              <a href="https://mamorvan.github.io/TriviaGame/index.html" target="_blank">Check out my Trivia Game</a>
+	            </div> <!--end of card-action div-->
+	          </div> <!--end of card div-->
+	        </div> <!--end of col s12 m6 div-->
+
+	    </div> <!--end of row2 div - contains hw3 hw4 and hw5-->
+
+	    <div class="row"> <!--row3-->
+ 			<!--col1 - homework6-->
+        	<div id="homework6" class="col s12 m4">
+	          <div class="card hoverable">
+	            <div class="card-image">
+	              <img src="images/feelinggifs.png">
+	              <span class="card-title">FEELING GIFs</span>
+	            </div>
+	            <div class="card-content">
+	              <p>Homework 6 - <br> Using Giphy API </p>
+	            </div> <!--end of card content div-->
+	            <div class="card-action">
+	              <a href="https://mamorvan.github.io/How-Do-You-Feel-Today/index.html" target="_blank">Check out my Feeling Gifs</a>
+	            </div> <!--end of card-action div-->
+	          </div> <!--end of card div-->
+	        </div> <!--end of col s12 m6 div-->
+
+	        <!--col2 - homework7-->
+	        <div id="homework7" class="col s12 m4">
+	          <div class="card hoverable">
+	            <div class="card-image">
+	              <img src="images/trainschedule.png">
+	              <span class="card-title">TRAIN SCHEDULE</span>
+	            </div>
+	            <div class="card-content">
+	              <p>Homework 7 - Make a train table using Firebase to store data and practice with date methods using moment.js</p>
+	            </div> <!--end of card content div-->
+	            <div class="card-action">
+	              <a href="https://mamorvan.github.io/Train-Schedule/index.html" target="_blank">Check out my Train Schedule</a>
+	            </div> <!--end of card-action div-->
+	          </div> <!--end of card div-->
+	        </div> <!--end of col s12 m6 div-->
+
+	        <!--col3 - project1-->
+   			<div id="project1" class="col s12 m4">
+	          <div class="card hoverable">
+	            <div class="card-image">
+	              <img src="images/moviestobooks.png">
+	              <span class="card-title">MOVIES-TO-BOOKS</span>
+	            </div>
+	            <div class="card-content">
+	              <p>PROJECT 1 - A complete application using all technologies learned so far and a couple more!</p>
+	            </div> <!--end of card content div-->
+	            <div class="card-action">
+	              <a href="https://applesauce-collaborative.github.io/Movies-to-Books/" target="_blank">Check out the first project from the AppleSauce Collaborative</a>
+	            </div> <!--end of card-action div-->
+	          </div> <!--end of card div-->
+	        </div> <!--end of col s12 m6 div-->
+
+	      </div> <!--end of row2 div - contains hw3 hw4 and hw5-->
+
+	</div> <!--end of wrapper-->
+
+	<footer>
+		<p>&copy; Copyright 2017 Mary Morvan</p>
+	</footer>
+
+	<!--JQUERY-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!--MATERIALIZE Compiled and minified JavaScript -->
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+
+  	<!--a tiny bit of script to activate drop-down menu in navbar-->
+  	<script type="text/javascript">
+  		$(".dropdown-button").dropdown();
+  	</script>
 
 </body>
 </html>
