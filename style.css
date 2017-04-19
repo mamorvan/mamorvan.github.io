@@ -21,6 +21,10 @@ nav {
 	/*can change font color here but not sure to what with varied backgrounds*/
 }
 
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+	color: #3983FF;
+}
+
 
 
 /*for sticky footer - using flexbox*/
