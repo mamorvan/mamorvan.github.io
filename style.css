@@ -3,10 +3,6 @@ body {
 	margin: 0 auto;
 	background-color: #8D8D8D;
 	font-family: "Open Sans Condensed", sans-serif;
-	/*for sticky footer - using flexbox*/
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;	
 }
 
 nav {
@@ -26,17 +22,3 @@ nav {
 }
 
 
-
-/*for sticky footer - using flexbox*/
-.wrapper {
-	flex: 1 0 auto;
-	padding: 10px;
-}
-
-footer {
-	height: 50px;
-	background-color: #3983FF;
-	text-align: center;
-	margin-top: 50px;
-	color: white;
-}
