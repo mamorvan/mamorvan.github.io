@@ -14,7 +14,8 @@ nav {
 }
 
 .card .card-image .card-title{
-	/*can change font color here but not sure to what with varied backgrounds*/
+	color: white;
+	text-shadow: 2px 2px 5px black;
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
